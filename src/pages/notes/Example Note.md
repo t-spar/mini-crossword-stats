@@ -1,1 +1,0 @@
-This is a simple a example note. Check it out!

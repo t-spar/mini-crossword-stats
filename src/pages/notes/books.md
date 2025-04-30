@@ -1,1 +1,0 @@
-Places throughout this site where I have linked full PDFs of various books.
