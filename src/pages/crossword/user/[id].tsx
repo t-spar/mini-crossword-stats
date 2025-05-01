@@ -140,7 +140,7 @@ export default function CrosswordUserPage() {
           justifyContent="space-between"
         >
           <Text fontSize="sm" m={3}>
-            <Link className="md-link" href="/projects/crossword">
+            <Link className="md-link" href="/crossword">
               <ArrowLeftIcon />
             </Link>
           </Text>

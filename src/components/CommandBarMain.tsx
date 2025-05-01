@@ -59,7 +59,7 @@ const CommandBarMain = () => {
             id: "crossword",
             children: "Crossword",
             icon: "AcademicCapIcon",
-            href: "/projects/crossword",
+            href: "/crossword",
           },
           {
             id: "render",

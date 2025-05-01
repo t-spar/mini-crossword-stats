@@ -71,7 +71,7 @@ export default function HowTo() {
       </OrderedList>
       <Text>
         That&apos;s it! Now you can enter that cookie on any leaderboard on
-        <Link href="/projects/crossword" className="md-link">
+        <Link href="/crossword" className="md-link">
           {" "}
           the crossword leaderboards page
         </Link>{" "}

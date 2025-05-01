@@ -94,7 +94,7 @@ export default function Projects() {
         </Flex>
         <Text>
           For instructions on how to get your NYT cookie, see{" "}
-          <Link className="md-link" href="/projects/crossword/how-to">
+          <Link className="md-link" href="/crossword/how-to">
             how to get your new york times cookie
           </Link>
         </Text>
@@ -125,7 +125,7 @@ export default function Projects() {
                           <Link
                             className="md-link"
                             href={
-                              "/projects/crossword/leaderboard/" +
+                              "/crossword/leaderboard/" +
                               leaderboardItem.id
                             }
                           >

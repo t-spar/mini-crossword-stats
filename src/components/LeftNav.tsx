@@ -33,7 +33,7 @@ const leftNavData: INavItem[] = [
   },
   {
         title: "mini crossword",
-        href: "/projects/crossword",
+        href: "/crossword",
   },
   {
     title: "about",

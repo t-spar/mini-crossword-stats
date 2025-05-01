@@ -209,7 +209,7 @@ export default function Projects() {
         justifyContent="space-between"
       >
         <Text fontSize="sm" m={3}>
-          <Link className="md-link" href="/projects/crossword">
+          <Link className="md-link" href="/crossword">
             <ArrowLeftIcon />
           </Link>
         </Text>
@@ -225,7 +225,7 @@ export default function Projects() {
 
       <Text>
         For instructions on how to get your NYT cookie, see{" "}
-        <Link className="md-link" href="/projects/crossword/how-to">
+        <Link className="md-link" href="/crossword/how-to">
           how to get your new york times cookie
         </Link>
       </Text>
@@ -290,7 +290,7 @@ export default function Projects() {
                     <Td>
                       <Link
                         className="md-link"
-                        href={"/projects/crossword/user/" + user.id}
+                        href={"/crossword/user/" + user.id}
                       >
                         {user.username}
                       </Link>

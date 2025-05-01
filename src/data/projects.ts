@@ -6,7 +6,7 @@ export const projects = [
     Compare historical times, see how you stack up against the competition, and more
     random stats.
     `,
-    website: "/projects/crossword",
+    website: "/crossword",
     repo: "",
     imageSrc: "/minicross.png",
     imageAlt: "mini crossword stats",

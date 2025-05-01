@@ -27,7 +27,7 @@ export default function Home() {
           <VStack align="left">
             <Text>
               Check out the {" "}
-              <Link className="md-link" href="/projects/crossword">
+              <Link className="md-link" href="/crossword">
                 crossword leaderboard.
               </Link>
             </Text>
