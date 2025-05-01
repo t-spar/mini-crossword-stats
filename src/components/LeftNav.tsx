@@ -1,18 +1,10 @@
 import {
-  Accordion,
-  AccordionButton,
-  AccordionIcon,
-  AccordionItem,
-  AccordionPanel,
-  Box,
   Button,
   Drawer,
   DrawerContent,
   DrawerOverlay,
   Flex,
   Image,
-  ListIcon,
-  SlideFade,
   Text,
   VStack,
   useBreakpointValue,
@@ -40,49 +32,13 @@ const leftNavData: INavItem[] = [
     href: "/",
   },
   {
-    title: "posts",
-    href: "/posts",
-    // more: [ // TODO: add this back when I have more posts
-    //   {
-    //     title: "all",
-    //     href: "/posts",
-    //   },
-    //   {
-    //     title: "tech",
-    //     href: "/posts/tech",
-    //   },
-    //   {
-    //     title: "life",
-    //     href: "/posts/life",
-    //   },
-    // ],
-  },
-  {
-    title: "reading",
-    href: "/reading",
-  },
-  {
-    title: "projects",
-    href: "/projects",
-    more: [
-      {
         title: "mini crossword",
         href: "/projects/crossword",
-      },
-    ],
-  },
-  {
-    title: "quotes",
-    href: "/quotes",
   },
   {
     title: "about",
     href: "/about",
-  },
-  // {
-  //   title: "my stack",
-  //   href: "/stack",
-  // },
+  }
 ];
 
 export const LeftNav = () => {

@@ -5,8 +5,6 @@ import {
   Menu,
   MenuItem,
   MenuList,
-  ScaleFade,
-  SlideFade,
   useDisclosure,
 } from "@chakra-ui/react";
 import { useRouter } from "next/router";
@@ -21,18 +19,6 @@ const Heads = [
   {
     path: "/about",
     src: "/face-2.png",
-  },
-  {
-    path: "/posts",
-    src: "/face-2.png",
-  },
-  {
-    path: "/quotes",
-    src: "/sina-monocle.png",
-  },
-  {
-    path: "/reading",
-    src: "/sina-books.png",
   },
   {
     path: "/projects",
