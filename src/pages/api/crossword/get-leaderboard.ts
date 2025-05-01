@@ -1,4 +1,4 @@
-import { getLeaderboard, getLeaderboards } from "@/db/crossword";
+import { getLeaderboard } from "@/db/crossword";
 import { LeaderboardItem } from "@/lib/crossword/types";
 import type { NextApiRequest, NextApiResponse } from "next";
 

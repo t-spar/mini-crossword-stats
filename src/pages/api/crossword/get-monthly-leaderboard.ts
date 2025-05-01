@@ -1,9 +1,4 @@
-import {
-  getLeaderboard,
-  getLeaderboards,
-  getMonthlyLeaderboardForRoom,
-} from "@/db/crossword";
-import { LeaderboardItem } from "@/lib/crossword/types";
+import { getMonthlyLeaderboardForRoom } from "@/db/crossword";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(

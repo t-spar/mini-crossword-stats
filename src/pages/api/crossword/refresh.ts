@@ -1,8 +1,6 @@
-import { getCrosswordUser, getMiniCrosswordDataNYT } from "@/lib/crossword";
-import {
-  addOrRefreshCrosswordUser,
+import { getMiniCrosswordDataNYT } from "@/lib/crossword";
+import {  
   enhanceSolveInformation,
-  getAllCrosswordUsers,
   getSolves,
   getUsersInLeaderboard,
   updatePuzzlesTable,

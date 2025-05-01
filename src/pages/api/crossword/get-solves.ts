@@ -1,4 +1,4 @@
-import { getCrosswordUser, getSolves, getSolvesFull } from "@/db/crossword";
+import { getSolvesFull } from "@/db/crossword";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(

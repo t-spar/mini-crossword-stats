@@ -1,5 +1,4 @@
 import { getLeaderboards } from "@/db/crossword";
-import { LeaderboardItem } from "@/lib/crossword/types";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(

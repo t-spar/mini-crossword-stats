@@ -1,19 +1,12 @@
 import { CrosswordCreateRoom } from "@/components/CrosswordCreateRoom";
 import { PopCitation } from "@/components/PopCitation";
-import { ProjectCard } from "@/components/ProjectCard";
-import { projects } from "@/data/projects";
-import {
-  LeaderboardItem,
-  LeaderboardItemResponse,
-} from "@/lib/crossword/types";
-import { CheckIcon, SpinnerIcon } from "@chakra-ui/icons";
+import { LeaderboardItemResponse } from "@/lib/crossword/types";
 import {
   Text,
   Box,
   Heading,
   VStack,
   Flex,
-  Input,
   Button,
   Table,
   Thead,

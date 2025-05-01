@@ -1,8 +1,4 @@
-import {
-  getCrosswordUser,
-  getCrosswordUsers,
-  getCrosswordUsersForLeaderboard,
-} from "@/db/crossword";
+import { getCrosswordUsersForLeaderboard } from "@/db/crossword";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(

@@ -1,5 +1,4 @@
-import Layout from "@/layouts/Layout";
-import { Box, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { Flex, Heading, Image } from "@chakra-ui/react";
 
 const FourOhFour = () => {
   return (
