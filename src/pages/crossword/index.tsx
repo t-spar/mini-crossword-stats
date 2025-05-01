@@ -150,23 +150,6 @@ export default function Projects() {
           Create new leaderboard
         </Button>
         {showCreateLeaderboard && <CrosswordCreateRoom />}
-
-        <Box>
-          <Heading size="md">See Also</Heading>
-          <Box>
-            <Link
-              className="md-link"
-              href="https://github.com/sinakhalili/sinakhalili.com"
-            >
-              The code on github
-            </Link>
-            <Text>
-              Unfortunately it&apos;s not a neat little package, it&apos;s a
-              part of this website&apos;s codebase, but if you search for
-              crossword in the repo you&apos;ll find it.
-            </Text>
-          </Box>
-        </Box>
       </VStack>
     </>
   );

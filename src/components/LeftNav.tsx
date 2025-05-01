@@ -11,11 +11,11 @@ import {
   useDisclosure,
 } from "@chakra-ui/react";
 import { CoolLink } from "./CoolLink";
-import { SinaHead } from "./SinaHead";
 import { LeftNavAccordion } from "./LeftNavAccordion";
 import { useRef } from "react";
 import Link from "next/link";
 import { HamburgerIcon } from "@chakra-ui/icons";
+import { Logo } from "./Logo";
 
 interface INavItem {
   title: string;
@@ -87,7 +87,7 @@ export const LeftNav = () => {
           <DrawerOverlay />
           <DrawerContent>
             <VStack p={3} bgColor="brand.100" h="100%">
-              <SinaHead />
+              <Logo />
               {leftNavData.map((item, index) => (
                 <CoolLink key={index} href={item.href}>
                   {item.more && <LeftNavAccordion item={item} />}
@@ -103,7 +103,7 @@ export const LeftNav = () => {
 
   return (
     <VStack p={3} bgColor="brand.100" h="100%">
-      <SinaHead />
+      <Logo />
       {leftNavData.map((item, index) => (
         <CoolLink key={index} href={item.href}>
           {item.more && <LeftNavAccordion item={item} />}

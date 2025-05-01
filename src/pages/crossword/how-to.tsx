@@ -18,7 +18,7 @@ export default function HowTo() {
   return (
     <VStack spacing="20px" mx={2}>
       <Head>
-        <title>Crossoword How-To</title>
+        <title>Crossword How-To</title>
       </Head>
       <Heading display="flex">
         How to get your New York Times cookie

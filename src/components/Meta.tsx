@@ -10,7 +10,7 @@ const Meta = ({ title }: IMetaProps) => {
       <title>{title}</title>
       <meta
         name="keywords"
-        content="code, python, philosophy, statups, tech, web development, engineering"
+        content="stats, mini crossword stats, crossword stats"
       />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
@@ -20,5 +20,5 @@ const Meta = ({ title }: IMetaProps) => {
 export default Meta;
 
 Meta.defaultProps = {
-  title: "Sina's blog",
+  title: "Mini Crossword Stats",
 };

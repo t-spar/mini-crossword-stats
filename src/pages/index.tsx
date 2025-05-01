@@ -8,7 +8,6 @@ import {
   chakra,
   Image,
 } from "@chakra-ui/react";
-import { PrinterPrint } from "@/components/Printer";
 import Link from "next/link";
 
 interface HomeProps {
@@ -16,8 +15,6 @@ interface HomeProps {
 }
 
 export default function Home() {
-  PrinterPrint();
-
   return (
     <Box>
       <Meta title="Mini Crossword Stats" />

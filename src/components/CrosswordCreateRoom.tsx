@@ -33,7 +33,7 @@ export const CrosswordCreateRoom = () => {
       <Input
         bgColor="white"
         value={name}
-        placeholder="cruciverbalist vegans"
+        placeholder="name of your leaderboard..."
         onChange={(e) => setName(e.target.value)}
       />
       <Text mt={3} mb={1}>
@@ -51,7 +51,7 @@ export const CrosswordCreateRoom = () => {
       <Input
         bgColor="white"
         value={password}
-        placeholder="leave blank for no password..."
+        placeholder="enter password..."
         onChange={(e) => setPassword(e.target.value)}
       />
       <Button onClick={handleCreate} w="100%" colorScheme="blackAlpha" my={2}>

@@ -1,5 +1,5 @@
 {
-  "name": "sina-new-blog",
+  "name": "mini-crossword-stats",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -18,7 +18,6 @@
     "@formkit/auto-animate": "^0.7.0",
     "@mdx-js/loader": "^2.0.0-rc.2",
     "@mdx-js/react": "^2.0.0-rc.2",
-    "@next/font": "^13.4.2",
     "@observablehq/plot": "^0.6.6",
     "@reach/disclosure": "^0.18.0",
     "@reach/tooltip": "^0.18.0",
